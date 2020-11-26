@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Новогодняя игра</title>
     <script>
-        console.log(window.location);
-        console.log(window.location.href.split("?"));
+        var p = document.createElement("p").innerText = window.location.href.split("?")[1];
+        document.getElementById('nybody').appendChild();
     </script>
 </head>
 
-<body>
+<body id="nybody">
     <div>Новогодняя игра</div>
 </body>
 
